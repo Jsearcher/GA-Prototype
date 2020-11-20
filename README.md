@@ -1,0 +1,2 @@
+# GA-Prototype
+This is a genetic algorithm prototype that is applied for airport BHS to determine the baggage makeup allocation automatically. The kernel operation of this algorithm is almost completed, but needs to be concerned more comprehensively. For example, a generic way to generate a new gene (solution candidate) that could fulfill most situation under customized constraints when "Crossover" and "Mutation".
