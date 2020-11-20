@@ -1,0 +1,13 @@
+2019/06/05 16:03:09 ||發生例外錯誤!		
+System.Data.SqlClient.SqlException (0x80131904): 無效的物件名稱 'dbo.OAS_SQL'。
+   於 T1_BHS_OAS.DBRecord.SelectbySQL(String pSQLStr) 於 D:\ASI Project\T1行李自動分揀系統文件(17E3067A)\0P_專案程式\T1BHS_PRJ-OAS\T1_BHS_OAS-General\T1_BHS_OAS\OAS_SQL.cs: 行 414
+   於 T1_BHS_OAS.Program.Main(String[] args) 於 D:\ASI Project\T1行李自動分揀系統文件(17E3067A)\0P_專案程式\T1BHS_PRJ-OAS\T1_BHS_OAS-General\T1_BHS_OAS\Program.cs: 行 38
+ClientConnectionId:2f8b19d2-b06d-4d1b-8876-fb23d8c6f9b9
+Error Number:208,State:1,Class:16
+2019/06/05 16:18:34 ||發生例外錯誤!		
+System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 T1_BHS_OAS.DBRecord.SelectbySQL(String pSQLStr) 於 D:\ASI Project\T1行李自動分揀系統文件(17E3067A)\0P_專案程式\T1BHS_PRJ-OAS\T1_BHS_OAS-General\T1_BHS_OAS\OAS_SQL.cs: 行 414
+   於 T1_BHS_OAS.Program.Main(String[] args) 於 D:\ASI Project\T1行李自動分揀系統文件(17E3067A)\0P_專案程式\T1BHS_PRJ-OAS\T1_BHS_OAS-General\T1_BHS_OAS\Program.cs: 行 38
+2019/06/05 17:42:52 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'test1']^ [Main@T1_BHS_OAS.Program]	
+2019/06/05 18:08:40 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'test1']^ [Main@T1_BHS_OAS.Program]	
+2019/06/05 18:27:56 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'test1']^ [Main@T1_BHS_OAS.Program]	

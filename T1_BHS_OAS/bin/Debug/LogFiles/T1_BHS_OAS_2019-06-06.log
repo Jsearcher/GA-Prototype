@@ -1,0 +1,2 @@
+2019/06/06 08:21:13 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'test1']^ [SelectbySQL@T1_BHS_OAS.DBLib.DBRecord]	
+2019/06/06 08:21:13 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'test1']^ [SelectbySQL@T1_BHS_OAS.DBLib.DBRecord]	

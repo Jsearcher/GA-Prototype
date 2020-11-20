@@ -1,0 +1,154 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1_BHS_OAS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GA_Config" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ga_config</Value>
+    </Setting>
+    <Setting Name="Read_xls" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">data source=filepath;provider=Microsoft.ACE.OLEDB.12.0;extended properties='Excel 8.0;HDR=No;IMEX=1;'</Value>
+    </Setting>
+    <Setting Name="Write_xls" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">data source=filepath;provider=Microsoft.ACE.OLEDB.12.0;extended properties='Excel 8.0;HDR=No;IMEX=0;'</Value>
+    </Setting>
+    <Setting Name="Read_xlsx" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">data source=filepath;provider=Microsoft.ACE.OLEDB.12.0;extended properties='Excel 12.0 Xml;HDR=No;IMEX=1;'</Value>
+    </Setting>
+    <Setting Name="Write_xlsx" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">data source=filepath;provider=Microsoft.ACE.OLEDB.12.0;extended properties='Excel 12.0 Xml;HDR=No;IMEX=0;'</Value>
+    </Setting>
+    <Setting Name="PopulationSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Generations" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="StallGenLimit" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="FitnessLimit" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">1E-07</Value>
+    </Setting>
+    <Setting Name="CrossRate" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.5</Value>
+    </Setting>
+    <Setting Name="MutationRate" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.1</Value>
+    </Setting>
+    <Setting Name="SelectFcn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">selection-roulette</Value>
+    </Setting>
+    <Setting Name="CrossoverFcn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">crossover-twopoint</Value>
+    </Setting>
+    <Setting Name="MutatoinFcn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">custom_mutationfcn</Value>
+    </Setting>
+    <Setting Name="T1_BHS_WEB_DB" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.7.229;Initial Catalog=T1_BHS_web;Persist Security Info=True;User ID=sa;Password=1qaz@WSX&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.7.229;Initial Catalog=T1_BHS_web;Persist Security Info=True;User ID=sa;Password=1qaz@WSX</Value>
+    </Setting>
+    <Setting Name="T1_BHS_DB" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.7.229;Initial Catalog=T1_BHS;Persist Security Info=True;User ID=t1bhs;Password=t1bhsdba&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.7.229;Initial Catalog=T1_BHS;Persist Security Info=True;User ID=t1bhs;Password=t1bhsdba</Value>
+    </Setting>
+    <Setting Name="OAS_App" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">oas_app</Value>
+    </Setting>
+    <Setting Name="TableName_OAS_SQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.OAS_SQL</Value>
+    </Setting>
+    <Setting Name="SQLStr_OSA_SQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE CODE_ID = '{1}'</Value>
+    </Setting>
+    <Setting Name="TableName_ALL_EXE_CONF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.ALL_EXE_CONF</Value>
+    </Setting>
+    <Setting Name="U_AllExeConf_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">U_AllExeConf_1</Value>
+    </Setting>
+    <Setting Name="S_AllExeConf_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S_AllExeConf_1</Value>
+    </Setting>
+    <Setting Name="TableName_XLSX_FlightData" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sheet1</Value>
+    </Setting>
+    <Setting Name="S_XLSXFlightData_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S_XLSXFlightData_1</Value>
+    </Setting>
+    <Setting Name="ReadFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FlightData.xlsx</Value>
+    </Setting>
+    <Setting Name="SaveFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FlightResult_{0}.csv</Value>
+    </Setting>
+    <Setting Name="ReadFileDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\ASI Project\T1行李自動分揀系統文件(17E3067A)\0P_專案程式\T1BHS_PRJ-OAS\T1_BHS_OAS-General\T1_BHS_OAS\_data</Value>
+    </Setting>
+    <Setting Name="SaveFileDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\ASI Project\T1行李自動分揀系統文件(17E3067A)\0P_專案程式\T1BHS_PRJ-OAS\T1_BHS_OAS-General\T1_BHS_OAS\_result</Value>
+    </Setting>
+    <Setting Name="WebSocket_IP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ws://0.0.0.0:2323</Value>
+    </Setting>
+    <Setting Name="Selected_Date" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20191220</Value>
+    </Setting>
+    <Setting Name="TableName_GA_CAROUSEL_TABLE_T1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.GA_CAROUSEL_TABLE_T1</Value>
+    </Setting>
+    <Setting Name="S_GACarouselTableT1_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S_GACarouselTableT1_1</Value>
+    </Setting>
+    <Setting Name="TableName_GA_COUNTER_TABLE_T1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.GA_COUNTER_TABLE_T1</Value>
+    </Setting>
+    <Setting Name="S_GACounterTableT1_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S_GACounterTableT1_1</Value>
+    </Setting>
+    <Setting Name="HealthCheck_Time" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="S_LateralConf_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S_LateralConf_1</Value>
+    </Setting>
+    <Setting Name="Timeout_PR" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="SW_ACC" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SW_RC" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SW_GDC" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SW_DSC" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SW_FSC" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TableName_LATERAL_CONF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.LATERAL_CONF</Value>
+    </Setting>
+    <Setting Name="TableName_MAKEUP_ALLOC" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.MAKEUP_ALLOC</Value>
+    </Setting>
+    <Setting Name="S_MakeupAlloc_1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">S_MakeupAlloc_1</Value>
+    </Setting>
+    <Setting Name="MsgRQ_Retry" Type="System.UInt32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

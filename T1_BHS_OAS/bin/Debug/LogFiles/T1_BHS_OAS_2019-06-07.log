@@ -1,0 +1,3 @@
+2019/06/07 09:36:47 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'U_AllExeConf_1']^ [QuerybySQL@T1_BHS_OAS.DBLib.DBRecord]	
+2019/06/07 09:39:15 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'U_AllExeConf_1']^ [QuerybySQL@T1_BHS_OAS.DBLib.DBRecord]	
+2019/06/07 09:41:07 |INFO|SQL string: [SELECT * FROM dbo.OAS_SQL WHERE CODE_ID = 'U_AllExeConf_1']^ [QuerybySQL@T1_BHS_OAS.DBLib.DBRecord]	
